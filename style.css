@@ -13,6 +13,7 @@
   height: 100vh;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   gap: 40px;
   background-color: rgb(17, 0, 26);
   color: rgb(206, 0, 206);
@@ -33,4 +34,8 @@ button {
 #result-output {
   max-width: 70%;
   text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
 }
