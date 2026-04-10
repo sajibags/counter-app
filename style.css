@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  background-color: rgb(17, 0, 26);
+  color: rgb(206, 0, 206);
+}
+
+#count {
+  position: absolute;
+  font-size: 4rem;
+  bottom: 700px;
+}
+
+button {
+  padding: 10px 30px;
+  color: purple;
+  cursor: pointer;
+}
+
+#result-output {
+  max-width: 70%;
+  text-align: center;
+}
